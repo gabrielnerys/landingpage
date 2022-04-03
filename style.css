@@ -19,6 +19,11 @@ ul li {
   color: rgb(112, 112, 112);
 }
 
+ul li:hover {
+  color: rgb(53, 53, 53);
+  cursor: pointer;
+}
+
 .logo {
   width: 20px;
 }
@@ -30,6 +35,11 @@ ul li {
   color: rgb(112, 112, 112);
 }
 
+.enter:hover {
+  color: rgb(53, 53, 53);
+  cursor: pointer;
+}
+
 .register {
   border-style: none;
   border-radius: 10px;
@@ -37,6 +47,11 @@ ul li {
   background-color: rgb(148, 0, 0);
   color: white;
   padding: 10px;
+}
+
+.register:hover {
+  background-color: rgb(122, 1, 1);
+  cursor: pointer;
 }
 
 .paragraph {
@@ -126,6 +141,11 @@ ul li {
   max-width: 100vh;
 }
 
+.jobs-card:hover {
+  cursor: pointer;
+  border: 1px solid rgba(128, 128, 128, 0.467);
+}
+
 .jobs-card h2 {
   font-size: medium;
   line-height: 2px;
@@ -204,6 +224,11 @@ ul li {
   background-color: rgb(148, 0, 0);
   color: white;
   padding: 13px;
+}
+
+.newsletter button:hover {
+  background-color: rgb(122, 1, 1);
+  cursor: pointer;
 }
 
 footer {
